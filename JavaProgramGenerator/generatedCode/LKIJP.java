@@ -1,0 +1,1 @@
+ public interface LKIJP {  int  FaVSx();  int  NAou(); void  Excyk();  int  QwK(); void  occi(); }

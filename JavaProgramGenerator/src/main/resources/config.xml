@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProgramGenerator>
+    <maxLinesofCode>200</maxLinesofCode>
+    <maxClasses>23</maxClasses>
+    <maxMethodCalls>10</maxMethodCalls>
+    <maxMethodsInClass>20</maxMethodsInClass>
+    <maxInterfaces>10</maxInterfaces>
+    <maxLevelOfInheritance>4</maxLevelOfInheritance>
+    <maxMethodsInInterface>5</maxMethodsInInterface>
+    <maxInterfacesToImplement>4</maxInterfacesToImplement>
+    <maxIntValue>100</maxIntValue>
+    <maxStringLength>20</maxStringLength>
+    <maxVariableNameLength>5</maxVariableNameLength>
+    <maxMethodNameLength>5</maxMethodNameLength>
+    <maxClassNameLength>5</maxClassNameLength>
+    <maxTotalLinesofCode>10000</maxTotalLinesofCode>
+    <maxRecurssionLevel>3</maxRecurssionLevel>
+    <allowedTypes>
+        <type>int</type>
+        <type>float</type>
+        <type>double</type>
+        <type>boolean</type>
+        <type>Object</type>
+        <type>String</type>
+    </allowedTypes>
+    <accessModifiers>
+        <modifier>public</modifier>
+        <modifier>static</modifier>
+        <modifier>private</modifier>
+        <modifier>protected</modifier>
+    </accessModifiers>
+</ProgramGenerator>

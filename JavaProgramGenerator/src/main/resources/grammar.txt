@@ -1,0 +1,12 @@
+<expression>:=<access_type> <var> = <exp> <op> <exp>
+<op>:=+ | - | *
+<exp>:=<exp> <op> <exp> | <digit>
+<class_name>:=<access_modifier> 'class' <class_name> '{' <expression> <class_method> '}'
+<inheritence>:=<access_modifier> 'class' <class_name> 'implements' <previous_interface_name> '{' <interface_methods> <class_method> '}'
+<class_method>:=<access_modifier> 'void' <method_name> '(' ')' '{' <for_loop> <expression> '}'
+<for_loop>:='for' '(' 'int' <var> ' '=' '0' ';' <var_prev> '<=' <digit> ';' <var_prev> '++' ')' '{' <expression> '}'
+<interface_name>:='public' 'interface' <interface_name> '{' <abstract_method> '}'
+<abstract_method>:=<access_return_type> <method_name> '(' ')' ';'
+<access_return_type>:=void | int | float
+<access_modifier>:=public | public
+<access_type>:=int | float
