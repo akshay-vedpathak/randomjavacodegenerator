@@ -39,6 +39,3 @@ The flow of our application is as below;
     - Gradle Build: Run command `gradle build` on Terminal in Intellij
     - SBT Build: Run command `compile` on the SBT Shell in Intellij 
 4. Run the main class ProgramGenerator.java, post successful run the generated java files are created and added in the directory /generatedCode
-
-
-## Implementation Details
